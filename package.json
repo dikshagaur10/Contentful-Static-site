@@ -1,0 +1,22 @@
+{
+  "name": "product-catalogue",
+  "version": "1.0.0",
+  "description": "package.json file for my project",
+  "main": "contentful.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christineywang/product-catalogue.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Diksha Gaur <diksha.gaur10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christineywang/product-catalogue/issues"
+  },
+  "homepage": "https://github.com/christineywang/product-catalogue#readme"
+}
