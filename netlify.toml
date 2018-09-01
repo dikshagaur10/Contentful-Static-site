@@ -13,7 +13,7 @@
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
-  command = "make production"
+  command = "make"
   [context.production.environment]
     ACCESS_TOKEN = "ea374dbbab2bd03101c077589516f023f0661dded9f77a74dff508b3eb1429f4"
 
@@ -25,13 +25,13 @@
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
 [context.branch-deploy]
-  command = "make staging"
+  command = "make"
 
 # Specific branch context: Deploys from this branch
 # will take these settings and override their
 # current ones.
 [context.feature]
-  command = "make feature"
+  command = "make"
 
 [context."features/branch"]
   command = "gulp"
