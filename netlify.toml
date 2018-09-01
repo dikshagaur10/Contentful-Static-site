@@ -15,12 +15,12 @@
 [context.production]
   command = "make production"
   [context.production.environment]
-    ACCESS_TOKEN = "super secret"
+    ACCESS_TOKEN = "ea374dbbab2bd03101c077589516f023f0661dded9f77a74dff508b3eb1429f4"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview.environment]
-  ACCESS_TOKEN = "not so secret"
+  ACCESS_TOKEN = "422bf141bc9012eb8cd7a7ec20ea6a1123ba2fb8a3e1ba553a4e9825d3a46659"
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
